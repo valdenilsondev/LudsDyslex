@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7f20152230ec481479380f5e9cb83952
+guid: 69140d81cae4b2e4182fa46b9b1ad012
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 3_0
+      name: bt02_0
       rect:
         serializedVersion: 2
-        x: 318
-        y: 0
-        width: 450
-        height: 1080
+        x: 94
+        y: 124
+        width: 219
+        height: 201
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,8 +131,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 699410590eba9b848aa93aecaa4ea826
-      internalID: 1878620892
+      spriteID: cd19f358b4f88684687d442d9579831a
+      internalID: -576317760
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      3_0: 1878620892
+      bt02_12: 555997768
+      bt02_8: -537029528
+      bt02_13: 1535827851
+      bt02_11: 1920991727
+      bt02_5: -1501948150
+      bt02_2: -884020467
+      bt02_4: -1542602245
+      bt02_9: 1526225037
+      bt02_7: -2125819834
+      bt02_10: -729385725
+      bt02_1: 472827444
+      bt02_0: -576317760
+      bt02_6: -849857595
+      bt02_3: -227964825
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

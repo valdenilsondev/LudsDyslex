@@ -1262,15 +1262,15 @@ RectTransform:
   m_GameObject: {fileID: 1241358052}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.8145584, y: 1.8145584, z: 1.8145584}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1301260137}
-  m_RootOrder: 7
+  m_Father: {fileID: 1730385446}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 308.3157, y: 424.94238}
+  m_AnchoredPosition: {x: -18, y: -64.891174}
   m_SizeDelta: {x: 255.35, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1241358054
@@ -1604,7 +1604,6 @@ RectTransform:
   - {fileID: 656723493}
   - {fileID: 2089351821}
   - {fileID: 1784087141}
-  - {fileID: 1241358053}
   - {fileID: 1730385446}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -2033,13 +2032,14 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.8145583, y: 1.8145583, z: 1.8145583}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1241358053}
   m_Father: {fileID: 1301260137}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -104.01, y: -309}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -117, y: 643}
   m_SizeDelta: {x: 107.71, y: 110.56}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1730385447
@@ -2265,10 +2265,10 @@ RectTransform:
   m_Father: {fileID: 1301260137}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 146, y: 730}
-  m_SizeDelta: {x: 1286.4, y: 416.9}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -394, y: -229}
+  m_SizeDelta: {x: 1286.4, y: 416.90002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1807490930
 MonoBehaviour:
