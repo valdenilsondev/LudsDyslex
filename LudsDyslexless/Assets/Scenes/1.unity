@@ -552,7 +552,7 @@ MonoBehaviour:
   - A
   - B
   - A
-  quantPerguntas: 8
+  quantPerguntas: 9
   listaPerguntas: 
   alternativaAimg:
   - {fileID: -377706139, guid: 1e216314df40664428dab45bc21a097d, type: 3}
