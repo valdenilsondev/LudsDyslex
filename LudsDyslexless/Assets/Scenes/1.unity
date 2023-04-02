@@ -526,7 +526,7 @@ MonoBehaviour:
   corErro: {r: 1, g: 0, b: 0, a: 1}
   perguntasComImagem: 1
   utilizarAlternativasImagem: 1
-  perguntasAleat: 0
+  perguntasAleat: 1
   jogarComTempo: 1
   tempoResponder: 3
   mostarCorreta: 0
@@ -546,7 +546,7 @@ MonoBehaviour:
   - B
   - B
   - A
-  - A
+  - B
   - B
   - B
   - A
@@ -1198,7 +1198,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10, y: -56}
+  m_AnchoredPosition: {x: -1197, y: -56}
   m_SizeDelta: {x: 319.9, y: 184.18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &565830952

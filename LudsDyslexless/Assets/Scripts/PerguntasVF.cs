@@ -254,6 +254,7 @@ public class PerguntasVF : MonoBehaviour {
 
 
         if (correta[listaPerguntas[idResponder]] == alternativa) {
+
             quantAcertos += 1;
             somController.playAcerto();
 
@@ -376,8 +377,8 @@ public class PerguntasVF : MonoBehaviour {
             nEstrelas = 1;
         }
         notaFinalTxt.text = notaFinal.ToString();
-        int nEstrelaModificado = nEstrelas - 1;
-        Mensagem01Text.text = mensagem1[nEstrelaModificado];
+       // int nEstrelaModificado = nEstrelas - 1;
+      //  Mensagem01Text.text = mensagem1[nEstrelaModificado];
 
         foreach (GameObject e in estrela) {
             e.SetActive(false);
