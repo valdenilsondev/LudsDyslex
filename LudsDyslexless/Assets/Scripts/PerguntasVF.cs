@@ -369,13 +369,15 @@ public class PerguntasVF : MonoBehaviour {
         if (notaFinal == 10) {
             nEstrelas = 3;
         }
-        else if (notaFinal >= notaMin1Star) {
+        else if (notaFinal >= notaMin1Star ) {
             nEstrelas = 2;
         }
         else if (notaFinal >= notaMin2Star) {
             nEstrelas = 1;
         }
         notaFinalTxt.text = notaFinal.ToString();
+        int nEstrelaModificado = nEstrelas - 1;
+        Mensagem01Text.text = mensagem1[nEstrelaModificado];
 
         foreach (GameObject e in estrela) {
             e.SetActive(false);

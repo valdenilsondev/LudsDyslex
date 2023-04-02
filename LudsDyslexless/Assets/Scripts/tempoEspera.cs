@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class tempoEspera : MonoBehaviour
 {
     public int tempoEspra;
+    public string nomeCena;
 
     void Start()
     {
@@ -21,6 +22,6 @@ public class tempoEspera : MonoBehaviour
 
         yield return new WaitForSeconds(tempoEspra);
 
-        SceneManager.LoadScene("StartScreen");
+        SceneManager.LoadScene(nomeCena);
     }
 }
